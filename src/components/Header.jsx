@@ -1,5 +1,7 @@
 import CoverImage from '../images/cover-image.jpg';
 import ProfileImage from '../images/profile-image.jpeg';
+import { FaTwitter, FaGithub } from 'react-icons/fa';
+
 
 export const Header = () => {
   return (
@@ -15,11 +17,15 @@ export const Header = () => {
             <h1 className="title-text">あなたの名前</h1>
             <h3 className="title-text">あなたの肩書(ex.Engineer)</h3>
             <ul className="social-icons">
-              <li className="icon-link">
-                {/* TODO */}
+            <li className="icon-link">
+                <a href="https://twitter.com/1119rinritu">
+                  <FaTwitter color="white" size="2rem" />
+                </a>
               </li>
               <li className="icon-link">
-                {/* TODO */}
+                <a href="https://github.com/RintaroKinashi">
+                  <FaGithub color="white" size="2rem" />
+                </a>
               </li>
             </ul>
           </div>
